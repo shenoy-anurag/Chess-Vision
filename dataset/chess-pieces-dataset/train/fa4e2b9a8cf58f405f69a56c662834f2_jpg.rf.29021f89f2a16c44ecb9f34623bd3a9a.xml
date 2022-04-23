@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>fa4e2b9a8cf58f405f69a56c662834f2_jpg.rf.29021f89f2a16c44ecb9f34623bd3a9a.jpg</filename>
+	<path>fa4e2b9a8cf58f405f69a56c662834f2_jpg.rf.29021f89f2a16c44ecb9f34623bd3a9a.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>black-pawn</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>176</xmin>
+			<xmax>200</xmax>
+			<ymin>218</ymin>
+			<ymax>266</ymax>
+		</bndbox>
+	</object>
+</annotation>

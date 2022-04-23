@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>4ae38537a74c5ed10d5223f8066659fc_jpg.rf.2a3fc30eafd01a0c64b484b6082ded39.jpg</filename>
+	<path>4ae38537a74c5ed10d5223f8066659fc_jpg.rf.2a3fc30eafd01a0c64b484b6082ded39.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white-rook</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>175</xmin>
+			<xmax>198</xmax>
+			<ymin>122</ymin>
+			<ymax>173</ymax>
+		</bndbox>
+	</object>
+</annotation>

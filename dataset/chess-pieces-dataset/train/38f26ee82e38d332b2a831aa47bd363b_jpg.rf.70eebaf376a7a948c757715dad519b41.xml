@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>38f26ee82e38d332b2a831aa47bd363b_jpg.rf.70eebaf376a7a948c757715dad519b41.jpg</filename>
+	<path>38f26ee82e38d332b2a831aa47bd363b_jpg.rf.70eebaf376a7a948c757715dad519b41.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white-king</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>212</xmin>
+			<xmax>240</xmax>
+			<ymin>86</ymin>
+			<ymax>167</ymax>
+		</bndbox>
+	</object>
+</annotation>

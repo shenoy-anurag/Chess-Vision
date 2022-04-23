@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>2ee0fd0963465ba29d8f27c6e605c55d_jpg.rf.ab3d6a72f56e3d0a0fb341073880b760.jpg</filename>
+	<path>2ee0fd0963465ba29d8f27c6e605c55d_jpg.rf.ab3d6a72f56e3d0a0fb341073880b760.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white-bishop</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>222</xmin>
+			<xmax>249</xmax>
+			<ymin>291</ymin>
+			<ymax>351</ymax>
+		</bndbox>
+	</object>
+</annotation>

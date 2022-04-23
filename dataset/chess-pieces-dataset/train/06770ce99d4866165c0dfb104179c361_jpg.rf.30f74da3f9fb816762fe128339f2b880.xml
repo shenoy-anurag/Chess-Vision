@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>06770ce99d4866165c0dfb104179c361_jpg.rf.30f74da3f9fb816762fe128339f2b880.jpg</filename>
+	<path>06770ce99d4866165c0dfb104179c361_jpg.rf.30f74da3f9fb816762fe128339f2b880.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>black-bishop</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>158</xmin>
+			<xmax>183</xmax>
+			<ymin>246</ymin>
+			<ymax>306</ymax>
+		</bndbox>
+	</object>
+</annotation>
