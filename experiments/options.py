@@ -1,0 +1,35 @@
+class Options:
+    def __init__(self,):
+        self.train = True
+        self.eval = False
+        self.predict = False
+        self.predict_to_file = ""
+        self.predict_all = ""
+        self.dataset_dir = "/kaggle/input/chess-object-detection/chess-pieces-dataset/"
+        # self.dataset_dir = "../dataset/chess-pieces-dataset"
+        self.load_from = "fasterrcnn_tf2.h5"
+        self.save_to = ""
+        self.save_best_to = "fasterrcnn_tf2.h5"
+        self.train_split = "train"
+        self.eval_split = "test"
+        self.cache_images = False
+        self.periodic_eval_samples = False
+        self.checkpoint_dir = False
+        self.plot = False
+        self.log_csv = ""
+        self.optimizer = "adam"
+        self.learning_rate = 1e-3
+        self.epochs = 1
+        self.clipnorm = 0.0
+        self.momentum = 0.9
+        self.beta1 = 0.9
+        self.beta2 = 0.999
+        self.weight_decay = 5e-4
+        self.dropout = 0.0
+        self.custom_roi_pool = 0.0
+        self.detector_logits = False
+        self.detector_logits = False
+        self.no_augment = True
+        self.exclude_edge_proposals = True
+        self.dump_anchors = True
+        self.debug_dir = ""

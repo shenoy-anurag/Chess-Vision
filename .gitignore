@@ -14,4 +14,9 @@ venv
 
 *.swp
 
+.DS_Store
+
 VOCdevkit/
+dataset/voc-dataset.tar.gz
+
+dataset/chess-pieces-dataset.zip
