@@ -1,7 +1,6 @@
 #
 # Faster R-CNN in PyTorch and TensorFlow 2 w/ Keras
-# tf2/frcnn/models/vgg16.py
-# Copyright 2021-2022 Bart Trzynadlowski
+# frcnn/models/vgg16.py
 #
 # TensorFlow/Keras implementation of the VGG-16 backbone for use as a feature
 # extractor in Faster R-CNN. Only the convolutional layers are used.

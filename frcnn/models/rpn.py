@@ -1,21 +1,7 @@
 #
 # Faster R-CNN in PyTorch and TensorFlow 2 w/ Keras
-# tf2/frcnn/models/rpn.py
-# Copyright 2021-2022 Bart Trzynadlowski
-# 
-# TensorFlow/Keras implementation of the RPN (region proposal network) stage of
-# Faster R-CNN. Given a feature map (i.e., the output of the VGG-16
-# convolutional layers), generates objectness scores for each anchor box, and
-# boxes in the form of modifications to anchor center points and dimensions.
-#
-# Unlike the original Faster R-CNN implementation (and many subsequent re-
-# implementations), which used two outputs per anchor (object and background)
-# and a softmax activation, this implementation uses only a single output and
-# sigmoid activation, which is simpler but equivalent. A value of < 0.5 is
-# background and >= 0.5 is an object.
-#
-# The RPN class and box delta regression losses are defined here.
-#
+# frcnn/models/rpn.py
+# Region Proposal Network
 
 import tensorflow as tf
 import tensorflow.keras

@@ -1,8 +1,6 @@
 #
 # Faster R-CNN in PyTorch and TensorFlow 2 w/ Keras
-# tf2/frcnn/visualize.py
-# Copyright 2021-2022 Bart Trzynadlowski
-#
+# frcnn/visualize.py
 # Routines for visualizing model results and debug information.
 #
 

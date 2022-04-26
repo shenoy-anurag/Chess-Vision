@@ -1,8 +1,6 @@
 #
 # Faster R-CNN in PyTorch and TensorFlow 2 w/ Keras
-# tf2/frcnn/statistics.py
-# Copyright 2021-2022 Bart Trzynadlowski
-#
+# frcnn/statistics.py
 # Classes for computing training-related statistics.
 #
 

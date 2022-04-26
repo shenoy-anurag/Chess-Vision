@@ -1,7 +1,6 @@
 #
 # Faster R-CNN in PyTorch and TensorFlow 2 w/ Keras
-# tf2/frcnn/models/unroll_roi_pool.py
-# Copyright 2021-2022 Bart Trzynadlowski
+# frcnn/models/unroll_roi_pool.py
 #
 # Script to generate unrolled pooling functions for use in RoIPoolingLayer. The
 # default, generic implementation capable of handling any pool dimensions uses

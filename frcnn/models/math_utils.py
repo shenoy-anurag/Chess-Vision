@@ -1,7 +1,6 @@
 #
 # Faster R-CNN in PyTorch and TensorFlow 2 w/ Keras
-# tf2/frcnn/models/math_utils.py
-# Copyright 2021-2022 Bart Trzynadlowski
+# frcnn/models/math_utils.py
 #
 # Math helper functions.
 #

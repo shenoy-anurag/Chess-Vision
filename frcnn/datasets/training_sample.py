@@ -1,7 +1,6 @@
 #
 # Faster R-CNN in PyTorch and TensorFlow 2 w/ Keras
-# tf2/frcnn/datasets/training_sample.py
-# Copyright 2021-2022 Bart Trzynadlowski
+# frcnn/datasets/training_sample.py
 #
 # Definition of a training sample. All items pertaining to a single sample are
 # bundled together for convenience.

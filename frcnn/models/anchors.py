@@ -1,8 +1,7 @@
 #
 # Faster R-CNN in PyTorch and TensorFlow 2 w/ Keras
-# tf2/frcnn/models/anchors.py
-# Copyright 2021-2022 Bart Trzynadlowski
-# 
+# frcnn/models/anchors.py
+#
 # Anchor generation code for the TensorFlow implementation of Faster R-CNN.
 # This differs from the PyTorch version only in the ordering of the dimensions
 # of the input image: Keras is (height, width, channels) and PyTorch is

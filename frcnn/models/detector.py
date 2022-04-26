@@ -1,7 +1,5 @@
 #
-# Faster R-CNN in PyTorch and TensorFlow 2 w/ Keras
-# tf2/frcnn/models/detector.py
-# Copyright 2021-2022 Bart Trzynadlowski
+# frcnn/models/detector.py
 #
 # Tensorflow/Keras implementation of the final detector stage of Faster R-CNN.
 # As input, takes a series of proposals (or RoIs) and produces classifications
