@@ -6,21 +6,37 @@ This project aims to detect and classify Chess Pieces on a Chess Board.
 
 My final results using the Roboflow Chess Pieces Dataset. Convergence is achieved in 30 epochs (at a learning rate of 0.001). We have used a VGG-16 backbone as the feature extractor.
 
-| Class | Precision (%) |
-| ----- |---------------|
-| black-king | 100.0         |
-| black-queen | 92.9          |
-| black-rook | 99.0          |
+| Class        | Precision (%) |
+| ------------ | ------------- |
+| black-king   | 100.0         |
+| black-queen  | 92.9          |
+| black-rook   | 99.0          |
 | black-bishop | 95.9          |
 | black-knight | 99.8          |
-| black-pawn | 96.6          |
-| white-king | 99.6          |
-| white-queen | 98.6          |
-| white-rook | 95.3          |
+| black-pawn   | 96.6          |
+| white-king   | 99.6          |
+| white-queen  | 98.6          |
+| white-rook   | 95.3          |
 | white-bishop | 98.2          |
 | white-knight | 99.7          |
-| white-pawn | 94.1          |
-|**Mean**    | **97.47%**    |
+| white-pawn   | 94.1          |
+| **Mean**     | **97.47%**    |
+
+## Results
+### Sample test image
+<img src="media/sample.jpg" alt="Chess board with chess pieces -- input image" width="400"/>
+
+A sample test input image that we used for predicting using our trained model.
+
+### Prediction of a test image
+<img src="media/sample_prediction.png" alt="Chess board with chess pieces -- output image with predictions" width="400"/>
+
+In most of the test images, the prediction is accurate, and every piece was detected.
+
+### When the predictions can wrong
+<img src="media/sample_prediction_imperfect.png" alt="Chess board with chess pieces -- output image with imperfect predictions" width="400"/>
+
+In the above image some of the overlapping pieces, such as the black pawn and rook at B4 and B5 respectively (upper middle of the image) were not detected.
 
 ## Background Material
 

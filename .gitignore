@@ -7,7 +7,7 @@ venv
 *.bin
 *.hdf5
 *.h5
-*.png
+# *.png
 *.sh
 *.pth
 *.csv
