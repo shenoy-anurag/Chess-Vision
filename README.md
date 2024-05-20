@@ -22,6 +22,8 @@ My final results using the Roboflow Chess Pieces Dataset. Convergence is achieve
 | white-pawn   | 94.1          |
 | **Mean**     | **97.47%**    |
 
+You can see the full project report here: [ML Project Final Report](docs/ML-Project-Final-Report.pdf)
+
 ## Results
 ### Sample test image
 <img src="media/sample.jpg" alt="Chess board with chess pieces -- input image" width="400"/>
